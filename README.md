@@ -21,6 +21,12 @@ Flutter 기반으로 iOS 느낌의 로그인 UI + WebView 기반 홈화면(세�
 cd project-root
 flutter pub get
 flutter run
+
+1. XCode 설치 확인 : `xcode-select -p`
+2. iOS 시뮬레이터 실행 : `open -a Simulator`
+3. Flutter가 인식하는지 확인 : `flutter devices`
+4. 앱 실행 : `flutter run -d "iPhone 16 Plus"`
+
 ---
 lib/
 ├── main.dart                    # 앱 진입점
