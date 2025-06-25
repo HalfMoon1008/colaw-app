@@ -61,7 +61,6 @@ lib/
 ├── services/                    # API 통신 로직
 │   └── auth_service.dart
 ├── models/                      # 데이터 모델
-│   └── user.dart
 ├── constants/                   # 상수 정의
 │   ├── colors.dart
 │   └── api_endpoints.dart
