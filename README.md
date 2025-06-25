@@ -4,7 +4,7 @@
 - WebView 기반 홈화면(세션 없이 구현)
 - 테스트용 백엔드 예시를 포함한 프로젝트
 
-![로그인 데모](assets/images/ios colaw.gif)
+![ios colaw](assets/images/ios_colaw.gif)
 
 ## 🚀 기능
 - Flutter Frontend (iOS 스타일 로그인 화면 구성)
