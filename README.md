@@ -8,15 +8,9 @@ Flutter 기반으로 iOS 느낌의 로그인 UI + WebView 기반 홈화면(세�
 - Node.js 기반 테스트용 로그인 서버 포함 (`backend-test/server.js`)
 - 임시 사용자 DB 기반 로그인 API
 
-## 📁 구조
-- `lib/` : 앱 실행 코드  
-- `assets/` : 이미지, 폰트 등  
-- `backend-test/` : 로그인 API 테스트 서버  
-- `android/, ios/, web/` : 플랫폼별 설정  
+
 
 ## 🛠️ 실행 방법
-
-### Flutter 앱 실행
 ```bash
 cd project-root
 flutter pub get
@@ -26,7 +20,16 @@ flutter run
 2. iOS 시뮬레이터 실행 : `open -a Simulator`
 3. Flutter가 인식하는지 확인 : `flutter devices`
 4. 앱 실행 : `flutter run -d "iPhone 16 Plus"`
+```
 
+## 📁 구조
+- `lib/` : 앱 실행 코드  
+- `assets/` : 이미지, 폰트 등  
+- `backend-test/` : 로그인 API 테스트 서버  
+- `android/, ios/, web/` : 플랫폼별 설정  
+
+## Tree
+```bash
 ---
 lib/
 ├── main.dart                    # 앱 진입점
