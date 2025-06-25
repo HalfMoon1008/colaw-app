@@ -30,7 +30,7 @@ flutter run
 - `backend-test/` : 로그인 API 테스트 서버  
 - `android/, ios/, web/` : 플랫폼별 설정  
 
-## Tree
+## 🌲 Tree
 ```bash
 lib/
 ├── main.dart                    # 앱 진입점
